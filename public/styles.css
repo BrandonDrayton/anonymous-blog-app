@@ -1,11 +1,11 @@
 .navbar {
     background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%)
 }
 
 body {
     background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
 }
 
 .title {
@@ -24,6 +24,15 @@ body {
     margin: 1em;
 }
 
+.list-group-item:hover {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+}
+
+#body {
+    width: 40rem;
+}
+
 .body-container {
     display: flex;
     justify-content: center;
@@ -32,5 +41,11 @@ body {
 
 .form-control {
     background: rgb(198, 171, 183);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(233, 148, 232) 67%)
+    background: linear-gradient(180deg, rgba(238, 174, 202, 1) 0%, rgb(233, 148, 232) 67%)
+}
+
+.btn-primary {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+    border: none
 }

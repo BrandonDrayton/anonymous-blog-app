@@ -79,7 +79,7 @@ app.post('/blog_new', (req, res) => {
     console.log(req.body.body)
     db.query("INSERT INTO posts (title, body) VALUES ($1, $2)", [title, body])
         .then(() => {
-            return res.redirect('/Blog')
+            return res.redirect('/blog')
         })
         .catch((err) => {
             console.log(err)

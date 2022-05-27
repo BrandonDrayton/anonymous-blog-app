@@ -1,4 +1,4 @@
-<form action="/blog_new" method="post">
+<!-- <form action="/blog_new" method="post">
     <p>
         <label for="title">Title: </label>
         <input type="text" name="title" id="title">
@@ -6,4 +6,16 @@
         <input type="text" name="body" id="body">
     </p>
     <button type="submit">Add</button>
-</form>
+</form> -->
+
+<div class="mb-3">
+    <form action="/blog_new" method="post">
+        <p>
+            <label class="form-label" for="title">Title:</label>
+            <input type="text" class="form-control" name="title" id="title" placeholder="Enter a title here: ">
+            <label for="body" class="form-label">Write your blog here:</label>
+            <textarea class="form-control" type="input" name="body" id="body" rows="20"></textarea>
+        </p>
+        <button type="submit" class="btn btn-primary btn-lg">Add</button>
+    </form>
+</div>
