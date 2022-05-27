@@ -16,7 +16,7 @@ const config = {
 const app = express()
 const server = http.createServer(app)
 const db = pgPromise(config)
-var path = require('path')
+const path = require('path')
 app.engine('html', es6Renderer)
 app.set('views', 'templates')
 app.set('view engine', 'html')
