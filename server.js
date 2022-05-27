@@ -25,14 +25,14 @@ app.use(bodyParser.json())
 app.use(express.static(("./public")))
 
 
-// routes go here
+
 app.get('/', (req, res) => {
     res.render("layout", {
         partials: {
             body: "partials/home"
         },
         locals: {
-            title: "Welcome to Blog Anonymous!"
+            title: "Welcome to Bloggy!"
         }
     })
 })
