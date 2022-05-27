@@ -16,13 +16,12 @@ const config = {
 const app = express()
 const server = http.createServer(app)
 const db = pgPromise(config)
-
+var path = require('path')
 app.engine('html', es6Renderer)
 app.set('views', 'templates')
 app.set('view engine', 'html')
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-app.use(express.static(("./public")))
 
 
 // routes go here
