@@ -1,6 +1,11 @@
-* {
+.navbar {
     background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
 }
 
 .title {
@@ -8,9 +13,24 @@
     justify-content: center;
 }
 
+.list-group {
+    border: 0em;
+}
+
+.list-group-item {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 67%);
+    border: 0em;
+    margin: 1em;
+}
+
 .body-container {
     display: flex;
     justify-content: center;
     margin-top: 3em;
+}
 
+.form-control {
+    background: rgb(198, 171, 183);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(233, 148, 232) 67%)
 }

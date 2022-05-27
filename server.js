@@ -22,6 +22,7 @@ app.set('views', 'templates')
 app.set('view engine', 'html')
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
+app.use(express.static(("./public")))
 
 
 // routes go here
